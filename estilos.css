@@ -1,0 +1,140 @@
+
+body {
+    background-color: antiquewhite;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header {
+color: blue;
+font-family: 'Tangerine', serif;
+font-size: 60px;
+}
+
+nav {
+    background-color: rgb(24, 201, 142);
+    height: 150px;
+}
+
+.nombre {
+    color: blueviolet;
+    font-size: 60px;
+    overflow-y: hidden;
+    margin-right: 10%;
+}
+
+@media only screen and (max-width: 615px) {
+    div.nombre {
+      font-size: 31px;
+    }
+  }
+
+.foto {
+   float: left;
+   margin-top: 15px;
+   margin-left: 15px;
+   margin-right: 35px;
+}
+
+/*iconos de titulos de datos*/
+.input-icono1 {
+    background-image: url('https://e7.pngegg.com/pngimages/926/242/png-clipart-computer-icons-data-visualization-personally-identifiable-information-others-text-logo.png');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 35px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding-left: 60px;
+    height: 35px;
+}
+  
+.input-icono2 {
+    background-image: url('https://opem.b-cdn.net/wp-content/uploads/2016/02/Formaci%C3%B3n-150x150.png.webp');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 40px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding-left: 60px;
+    height: 35px;
+}
+
+.input-icono3 {
+    background-image: url('https://opem.b-cdn.net/wp-content/uploads/2016/02/ICONOS-experiencia-cv3.png.webp');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 40px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding-left: 60px;
+    height: 35px;
+}
+
+.input-icono4 {
+    background-image: url('https://opem.b-cdn.net/wp-content/uploads/2016/02/Inform%C3%A1tica-150x150.png.webp');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 40px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding-left: 60px;
+    height: 35px;
+}
+
+/*barra inferior*/
+footer{
+display:grid;
+grid-template-columns: 1fr auto;
+align-items: center;
+background: rgb(0, 146, 114);
+font-family: sans-serif;
+position: fixed;
+bottom: 0;;
+width:90%;
+z-index: auto;
+}
+
+footer .contacto {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/15/15895.png');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    padding-left: 60px;
+    height: 35px;
+    font-size: 24px;
+    color: rgb(110, 250, 255);
+    margin-left: 30px;
+}
+
+footer .barra{
+display:grid;
+margin-right: 30px;
+color: antiquewhite;
+}
+
+/*boton*/
+.botonera {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+.boton {
+    background-image: url('https://pngimg.com/uploads/buttons/buttons_PNG167.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 165px;
+    width: 150px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+}
+
